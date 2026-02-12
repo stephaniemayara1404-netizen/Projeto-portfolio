@@ -410,7 +410,7 @@ header a:hover {
     margin-top: var(--spacing-sm);
 }
 
-.swipper-wrapper {
+.swiper-wrapper {
     align-items: stretch;
 }
 
@@ -465,7 +465,7 @@ header a:hover {
     margin-bottom: var(--spacing-lg);
 }
 
-.social-conainer {
+.social-container {
     display: flex;
     justify-content: center;
     gap: var(--spacing-x1);
@@ -639,7 +639,7 @@ footer {
         display: none;
     }
 }
-}
+
 
 /* Hero */
 .hero-container {
@@ -788,6 +788,7 @@ footer {
     width: 5rem;
     height: 5rem;
 }
+}
 
 @media screen and (max-width: 480px) {
 
@@ -812,7 +813,7 @@ footer {
     .section-container span {
         font-size: var(--text-lg);
     }
-}
+
 
 .success-content h1 {
     font-size: var(--text-xl);
@@ -1001,3 +1002,4 @@ footer {
     padding: 0.75rem var(--spacing-lg)
 }
 
+}
